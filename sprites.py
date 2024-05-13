@@ -67,7 +67,7 @@ class Plane(pygame.sprite.Sprite):
         self.mask = pygame.mask.from_surface(self.image)
 
         # sound
-        self.jump_sound = pygame.mixer.Sound('sounds/jump.wav')
+        self.jump_sound = pygame.mixer.Sound('sounds/Kitten_meow.wav')
         self.jump_sound.set_volume(0.5)
 
     def import_frames(self, scalefactor):
